@@ -1,0 +1,51 @@
+body {
+    margin: auto;
+    text-align: center;
+    
+    background-color:rgb(141, 79, 128);
+    color: white;
+    font-size: 2em;
+    }
+.menu {
+    width: 100%;
+    background-color: rgb(251, 211, 37);
+    overflow: hidden;
+}
+.menu a {
+    text-decoration:none;
+    
+    background-color: rgb(251, 211, 37);
+    padding: 10px;
+    margin-left:20px;
+    display: block;
+    float: left;
+    letter-spacing: 1px;
+}
+.menu a:hover {
+    transition-duration: .4s;
+    color: white;
+    background-color: black;
+}
+table , tr , td , th {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td:nth-child(1n) {
+    background-color: rgb(138, 180, 248);
+    color: rgb(251, 211, 37);
+}
+td:nth-child(2n) {
+    background-color: rgb(36, 68, 120);
+    color: rgb(206, 177, 47);
+    color: white;
+}
+td {
+    min-width: 60px;
+}
+.rangH , .ColumM {
+    background-color: rgb(177, 142, 223);
+    color: rgb(115, 70, 19);
+}
